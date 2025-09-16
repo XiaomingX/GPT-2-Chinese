@@ -177,7 +177,7 @@ def simulate(maze, q_agent, random_agent):
 # 主程序（端到端流程）
 if __name__ == "__main__":
     # 1. 创建迷宫环境
-    maze = Maze(size=10)
+    maze = Maze(size=5)
     print("初始迷宫：")
     maze.print(maze.start, maze.start)
     time.sleep(2)
