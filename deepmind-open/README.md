@@ -1,0 +1,77 @@
+# 算法名：
+dpfausaran-t：可能是分支或临时项目，用途不明确
+dpfau：可能是分支或临时项目，用途不明确
+and：可能是分支或临时项目，用途不明确
+saran-t：可能是分支或临时项目，用途不明确
+Add code for generating s3o4d data：用于生成s3o4d数据集的代码
+PrediNet：可能是处理"mini_between_*.npz"数据集的预测网络
+adversarial_robustness：关于对抗鲁棒性的研究实现，修复相关类型错误
+affordances_theory：与感知理论、物体功能感知相关的项目
+alphafold_casp13：AlphaFold在CASP13竞赛中的相关实现，用于蛋白质结构预测
+avae：可能是自编码器（如对抗性VAE）的实现，内部变更
+bigbigan：BigBiGAN模型实现，含TF Hub模块相关说明
+box_arrangement：与盒子排列任务相关，涉及KFAC优化器的使用
+byol：Bootstrap Your Own Latent自监督学习方法的实现
+cadl：与计算机辅助设计（CAD）草图数据集相关的深度学习项目
+catch_carry：与机器人抓取和搬运相关的任务或模型
+causal_reasoning：关于因果推理的研究或模型
+cmtouch：可能与触觉感知相关的项目
+continual_learning：持续学习（增量学习）相关，含编码器和集成方法代码
+counterfactual_fairness：研究机器学习中的反事实公平性
+cs_gan：可能是条件GAN或特定类型GAN的实现
+curl：Contrastive Unsupervised Representation Learning实现，用于强化学习
+density_functional_approximation_dm21：与密度泛函理论近似相关的计算化学项目
+enformer：Enformer模型实现，用于基因组学预测
+ensemble_loss_landscape：研究集成模型的损失 landscape
+functional_regularisation_for_continual_learning：持续学习中的功能正则化方法
+fusion_tcv：可能与多模态融合相关的项目
+galaxy_mergers：用于星系合并分析的深度学习方法
+gated_linear_networks：门控线性网络的实现
+geomancer：可能与地理空间或几何数据处理相关的模型
+glassy_dynamics：研究玻璃态动力学的深度学习模型
+graph_matching_networks：用于图匹配的网络模型实现
+hierarchical_probabilistic_unet：分层概率U-Net的实现，可能用于图像分割
+hierarchical_transformer_memory：带分层Transformer记忆的模型
+himo：可能是某种特定架构的模型实现
+iodine：可能是用于图像分解的模型（如IODINE）
+kfac_ferminet_alpha：KFAC优化器在FermiNet（量子化学模型）中的应用
+learned_free_energy_estimation：关于学习自由能估计的方法
+learning_to_simulate：用于物理系统模拟的深度学习方法
+memo：可能与记忆相关的模型或任务
+meshgraphnets：MeshGraphNets的实现，用于网格物理模拟
+mmv：可能是多模态视频相关项目
+neural_mip_solving：关于神经混合整数规划求解的方法
+nfnets：NFNets（Normalized Flow Networks）高效神经网络架构实现
+noisy_label：研究带噪声标签的机器学习方法
+nowcasting：用于短时天气预报（临近预报）的模型
+object_attention_for_reasoning：关于物体注意力在推理中的应用
+ode_gan：基于常微分方程的GAN实现
+ogb_lsc：与Open Graph Benchmark大规模挑战相关的模型
+option_keyboard：可能与选项强化学习相关的方法
+perceiver：Perceiver模型实现，处理长序列输入的通用架构
+physics_inspired_models：受物理启发的机器学习模型
+physics_planning_games：关于物理规划游戏的AI模型
+pitfalls_static_language_models：研究静态语言模型的缺陷
+polygen：PolyGen模型实现，用于3D形状生成
+powerpropagation：PowerPropagation优化方法的实现
+rapid_task_solving：用于快速任务求解的方法，含对抗鲁棒模型训练
+regal：可能是REGAL算法实现，用于图对齐
+rl_unplugged：离线强化学习的基准和方法
+satore：可能是某个特定任务或模型的研究项目
+scratchgan：可能是从基础实现的GAN
+side_effects_penalties：研究强化学习中副作用惩罚的方法
+sketchy：可能与草图处理相关的模型
+synthetic_returns：关于合成回报（如金融或强化学习中）的模型
+tandem_dqn：Tandem DQN强化学习算法的实现
+transporter：Transporter网络实现，用于机器人操作
+tvt：可能是某种视觉Transformer或相关模型
+unrestricted_advx：关于无限制对抗性攻击或防御的方法
+unsupervised_adversarial_training：无监督对抗训练的实现
+visr：可能与视觉推理相关的项目
+wikigraphs：关于维基百科图谱的处理或模型
+
+
+
+# 参考
+- https://github.com/google-deepmind/deepmind-research
+
