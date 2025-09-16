@@ -1,44 +1,44 @@
-**Status:** Archive (code is provided as-is, no updates expected)
+**状态：** 归档（代码按现状提供，预计不会更新）
 
-# gpt-2
+# GPT-2
 
-Code and models from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
+来自论文《语言模型是无监督多任务学习者》（["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)）的代码和模型。
 
-You can read about GPT-2 and its staged release in our [original blog post](https://openai.com/research/better-language-models/), [6 month follow-up post](https://openai.com/blog/gpt-2-6-month-follow-up/), and [final post](https://www.openai.com/blog/gpt-2-1-5b-release/).
+你可以通过我们的[原始博客文章](https://openai.com/research/better-language-models/)、[6个月后续文章](https://openai.com/blog/gpt-2-6-month-follow-up/)和[最终文章](https://www.openai.com/blog/gpt-2-1-5b-release/)了解GPT-2及其分阶段发布过程。
 
-We have also [released a dataset](https://github.com/openai/gpt-2-output-dataset) for researchers to study their behaviors.
+我们还[发布了一个数据集](https://github.com/openai/gpt-2-output-dataset)，供研究人员研究其行为。
 
-<sup>*</sup> *Note that our original parameter counts were wrong due to an error (in our previous blog posts and paper).  Thus you may have seen small referred to as 117M and medium referred to as 345M.*
+<sup>*</sup> *注意：由于一个错误，我们最初的参数数量统计有误（在之前的博客文章和论文中）。因此，你可能看到过小型模型被称为117M，中型模型被称为345M。*
 
-## Usage
+## 使用方法
 
-This repository is meant to be a starting point for researchers and engineers to experiment with GPT-2.
+本仓库旨在作为研究人员和工程师实验GPT-2的起点。
 
-For basic information, see our [model card](./model_card.md).
+基础信息请参见我们的[模型卡片](./model_card.md)。
 
-### Some caveats
+### 一些注意事项
 
-- GPT-2 models' robustness and worst case behaviors are not well-understood.  As with any machine-learned model, carefully evaluate GPT-2 for your use case, especially if used without fine-tuning or in safety-critical applications where reliability is important.
-- The dataset our GPT-2 models were trained on contains many texts with [biases](https://twitter.com/TomerUllman/status/1101485289720242177) and factual inaccuracies, and thus GPT-2 models are likely to be biased and inaccurate as well.
-- To avoid having samples mistaken as human-written, we recommend clearly labeling samples as synthetic before wide dissemination.  Our models are often incoherent or inaccurate in subtle ways, which takes more than a quick read for a human to notice.
+- GPT-2模型的鲁棒性和最坏情况行为尚未被充分理解。与任何机器学习模型一样，需针对你的使用场景仔细评估GPT-2，尤其是在未经过微调的情况下，或在可靠性至关重要的安全关键型应用中使用时。
+- 训练GPT-2模型所用的数据集包含许多带有偏见和事实错误的文本，因此GPT-2模型也可能存在偏见和不准确之处。
+- 为避免样本被误认为是人类撰写的，建议在广泛传播前明确将样本标记为合成内容。我们的模型在细微之处常常不连贯或不准确，这需要人类仔细阅读才能发现。
 
-### Work with us
+### 与我们合作
 
-Please [let us know](mailto:languagequestions@openai.com) if you’re doing interesting research with or working on applications of GPT-2!  We’re especially interested in hearing from and potentially working with those who are studying
-- Potential malicious use cases and defenses against them (e.g. the detectability of synthetic text)
-- The extent of problematic content (e.g. bias) being baked into the models and effective mitigations
+如果你正在开展关于GPT-2的有趣研究或应用工作，请[告知我们](mailto:languagequestions@openai.com)！我们尤其有兴趣听取并可能与以下研究方向的人员合作：
+- 潜在的恶意用例及其防御措施（例如合成文本的可检测性）
+- 模型中存在的问题内容（如偏见）的程度以及有效的缓解措施
 
-## Development
+## 开发
 
-See [DEVELOPERS.md](./DEVELOPERS.md)
+参见[DEVELOPERS.md](./DEVELOPERS.md)
 
-## Contributors
+## 贡献者
 
-See [CONTRIBUTORS.md](./CONTRIBUTORS.md)
+参见[CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
-## Citation
+## 引用
 
-Please use the following bibtex entry:
+请使用以下bibtex条目：
 ```
 @article{radford2019language,
   title={Language Models are Unsupervised Multitask Learners},
@@ -47,12 +47,12 @@ Please use the following bibtex entry:
 }
 ```
 
-## Future work
+## 未来工作
 
-We may release code for evaluating the models on various benchmarks.
+我们可能会发布在各种基准上评估模型的代码。
 
-We are still considering release of the larger models.
+我们仍在考虑发布更大的模型。
 
-## License
+## 许可证
 
-[Modified MIT](./LICENSE)
+[修改后的MIT许可证](./LICENSE)
